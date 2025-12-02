@@ -13,8 +13,11 @@ function easyProblem1(playerRank, level) {
     // TODO: Write your code here
     // Check if playerRank is "Elite" AND level is 10
     // Return "can access" if both are true, otherwise "go home"
-}
 
+if (playerRank === "elite" && 10)
+    {return "can access"} 
+    else{return "go home"}
+}
 // Test your code:
 console.log("Easy 1 - Test 1:", easyProblem1("Elite", 10)); // Should print: "can access"
 console.log("Easy 1 - Test 2:", easyProblem1("Elite", 9)); // Should print: "go home"
